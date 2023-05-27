@@ -1,0 +1,41 @@
+.nav-Container{
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-around;
+
+}
+.image_part{
+  height: 80vh;
+ 
+  background-repeat: no-repeat;
+  background-size: 1250px 500px;
+text-align: center;
+padding: 5px;
+
+  background-image: url('https://th.bing.com/th/id/OIP.Ch5iLCZ_Z53GU6zipof9-gHaEd?pid=ImgDet&rs=1');
+}
+.btns{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+ 
+  align-items: center;
+  height: 40px;
+  width:100px;
+  margin-top: 20px;
+}
+button{
+  text-decoration: none;
+  background-color: black;
+  border: none;
+  color: white;
+  margin: 25px;
+}
+button:hover{
+  background-color: pink;
+  color: black;
+  border-radius: 5px;
+  height: 50px;
+ padding: 10px;
+}
